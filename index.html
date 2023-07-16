@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- link css style files -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Results summary component</title>
+
+</head>
+
+<body>
+
+  <main>
+    <div class="results-box">
+      <div class="score">
+        <span>Your Result</span>
+        <div class="final-score">
+          <h2>76</h2>
+          <span>of 100</span>
+        </div>
+        <h3 class="advantage">Great</h3>
+        <p class="score-description">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <section class="results-details">
+        <h2>Summary</h2>
+
+        <div class="category reaction">
+          <!-- <span></span><span></span><span></span><span></span> -->
+          <div class="category-name">
+            <img src="assets/images/icon-reaction.svg" alt="this is an icon for lightning">
+            <h3>Reaction</h3>
+          </div>
+          <div class="detail-score"><span>80</span> / 100</div>
+        </div>
+
+        <div class="category memory">
+          <div class="category-name">
+            <img src="assets/images/icon-memory.svg" alt="this is an icon for a brain">
+            <h3>Memory</h3>
+          </div>
+          <div class="detail-score"><span>92</span> / 100</div>
+        </div>
+
+        <div class="category verbal">
+          <div class="category-name">
+            <img src="assets/images/icon-verbal.svg" alt="this is an icon for text message">
+            <h3>Verbal</h3>
+          </div>
+          <div class="detail-score"><span>61</span> / 100</div>
+        </div>
+
+        <div class="category visual">
+          <div class="category-name">
+            <img src="assets/images/icon-visual.svg" alt="this is an icon for an eye">
+            <h3>Visual</h3>
+          </div>
+          <div class="detail-score"><span>72</span> / 100</div>
+        </div>
+        <input type="button" value="Continue" class="continue-btn">
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
